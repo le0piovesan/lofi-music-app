@@ -23,6 +23,12 @@ window.addEventListener('load', () =>{
                 createBubbles(index);
             }      
         }
+
+        pad.addEventListener('click', () => {
+            sounds[index].currentTime = 0;
+            sounds[index].play();
+            createBubbles(index);
+        })
     });
 
 
@@ -42,7 +48,7 @@ window.addEventListener('load', () =>{
       
         
         bubble.addEventListener('animationend', function(){
-            visual.removeChild(this);
+            visuals.removeChild(this);
         });
     };
 });

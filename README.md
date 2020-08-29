@@ -1,3 +1,4 @@
-Music-Tap-App
+## Music-Tap-App
 
-Basic music app from dev ed tutorial with a few personal changes.
+Being hosted at [lofi-beats.netlify.app](lofi-beats.netlify.app)<hr/>
+Basic music app, at first it was based on a tutorial but since then I've made lots of changes.
